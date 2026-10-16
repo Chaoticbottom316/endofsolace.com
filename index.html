@@ -9,10 +9,10 @@
   <meta name="description" content="SOLACE is a realistic third-person zombie open-world survival game in active development by Chaotic Designs." />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="SOLACE — A West Seattle Survival Story" />
-  <meta property="og:description" content="Nine districts. One way out. Explore the trailers, story, and playable web prototype for SOLACE, now in active development." />
+  <meta property="og:description" content="Nine districts. One way out. Explore the story, the graphic novels, and the playable web prototype for SOLACE, now in active development." />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="SOLACE — A West Seattle Survival Story" />
-  <meta name="twitter:description" content="Nine districts. One way out. Explore the trailers, story, and playable web prototype for SOLACE, now in active development." />
+  <meta name="twitter:description" content="Nine districts. One way out. Explore the story, the graphic novels, and the playable web prototype for SOLACE, now in active development." />
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Barlow:wght@400;500;600;700&display=swap');
 
@@ -150,15 +150,6 @@
     h2 { font: 700 clamp(42px, 6vw, 76px)/.92 "Barlow Condensed", sans-serif; letter-spacing: -.025em; text-transform: uppercase; }
     .lead { font-size: clamp(19px, 2.2vw, 25px); line-height: 1.42; color: var(--muted); }
 
-    .trailer-section { background: var(--paper-2); }
-    .video-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; align-items: start; }
-    .video-shell { min-width: 0; background: #020506; box-shadow: var(--shadow); }
-    .video-frame { position: relative; aspect-ratio: 16 / 9; }
-    .vertical-video .video-frame { width: min(100%, 260px); margin-inline: auto; aspect-ratio: 9 / 16; }
-    .video-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
-    .disclosure { min-height: 128px; padding: 16px 18px 18px; background: #101a1c; color: #d3dcd9; font-size: 14px; }
-    .disclosure strong { display: block; margin-bottom: 7px; color: #e8a04c; font: 700 18px/1.1 "Barlow Condensed", sans-serif; text-transform: uppercase; }
-    .disclosure span { display: block; }
 
     .story-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: clamp(34px, 7vw, 90px); align-items: center; }
     .story-copy h2 { margin-bottom: 24px; }
@@ -210,7 +201,6 @@
     .footer-inner { display: flex; justify-content: space-between; gap: 24px; padding: 26px 0; font-size: 14px; }
     .footer-inner b { color: #e7efec; }
 
-
     /* 2026-10-16 update: graphic novels + latest build (steel-grey / smoke / wet black, firelight accent only) */
     .novels { background: #0a0f11; color: #e8edeb; }
     .novels .lead { color: #a7b4b1; max-width: 720px; margin: -14px 0 42px; }
@@ -257,7 +247,7 @@
       .fact:nth-child(3) { padding-left: 0; border-left: 0; }
       section { padding: 70px 0; }
       .section-head { grid-template-columns: 1fr; gap: 10px; margin-bottom: 30px; }
-      .story-grid, .districts-layout, .contact-grid, .video-grid { grid-template-columns: 1fr; }
+      .story-grid, .districts-layout, .contact-grid { grid-template-columns: 1fr; }
       .story-image { order: -1; }
       .story-image::after { right: -8px; bottom: -12px; }
       .feature-grid { grid-template-columns: 1fr; }
@@ -268,7 +258,6 @@
       .prototype-image { min-height: 300px; }
       .prototype-image::after { background: linear-gradient(0deg, var(--night), transparent 55%); }
       .prototype-copy { padding: 25px 20px 64px; }
-      .disclosure { min-height: 0; }
       .footer-inner { flex-direction: column; gap: 6px; }
     }
 
@@ -284,7 +273,6 @@
         <div class="genre">Third-person zombie open-world survival</div>
         <p class="hook">You're sealed inside West Seattle with the bridge down — 9 districts unlock based on your choices, a companion fights beside you, and a radio tower is the only way to call for help.</p>
         <div class="actions">
-          <a class="button primary" href="#trailer">Watch videos</a>
           <a class="button" href="#prototype">Play web prototype</a>
         </div>
       </div>
@@ -293,120 +281,18 @@
     <div class="fact-strip" aria-label="Game at a glance">
       <div class="wrap facts">
         <div class="fact"><b>9</b><span>West Seattle districts</span></div>
-        <div class="fact"><b>90</b><span>Mission campaign</span></div>
-        <div class="fact"><b>6</b><span>Infected classes</span></div>
+        <div class="fact"><b>109</b><span>Missions in the full campaign</span></div>
+        <div class="fact"><b>15+</b><span>Named characters, full storylines</span></div>
         <div class="fact"><b>PC + PS5</b><span>Target platforms</span></div>
       </div>
     </div>
 
-    <section class="trailer-section" id="trailer">
-      <div class="wrap">
-        <div class="section-head">
-          <span class="section-no">01 / Videos</span>
-          <div>
-            <h2>Stories from inside the quarantine.</h2>
-            <p class="lead">Concept trailers and cinematic pre-visualization exploring the intended atmosphere, stakes, and survival journey.</p>
-          </div>
-        </div>
-        <div class="video-grid" aria-label="SOLACE videos">
-          <article class="video-shell">
-            <div class="video-frame">
-              <iframe src="https://drive.google.com/file/d/1XxGdnSG9dOTfmpIhFdObNuMHc3yWXPqF/preview" title="SOLACE concept trailer" allow="autoplay; fullscreen" allowfullscreen></iframe>
-            </div>
-            <div class="disclosure"><strong>Concept pre-visualization</strong><span>AI concept trailer — pre-visualization</span></div>
-          </article>
-          <article class="video-shell">
-            <div class="video-frame">
-              <iframe src="https://drive.google.com/file/d/1NvEdFpDzZbIvGJ9dwi3thIRt3g3mMpvo/preview" title="SOLACE 54-second concept trailer" allow="autoplay; fullscreen" allowfullscreen></iframe>
-            </div>
-            <div class="disclosure"><strong>54-second concept trailer</strong><span>AI concept trailer — pre-visualization</span></div>
-          </article>
-          <article class="video-shell">
-            <div class="video-frame">
-              <iframe src="https://drive.google.com/file/d/1eeN00-G6KaqnaO0NJv1fTZlhV4EV3YWP/preview" title="SOLACE Night Zero story animatic" allow="autoplay; fullscreen" allowfullscreen></iframe>
-            </div>
-            <div class="disclosure"><strong>Night Zero</strong><span>AI concept trailer — pre-visualization</span></div>
-          </article>
-          <article class="video-shell">
-            <div class="video-frame">
-              <iframe src="https://drive.google.com/file/d/12HIJ_iZziZNbFY2Tujddr3S1z-QzONuW/preview" title="Ian Lights a Lighter" allow="autoplay; fullscreen" allowfullscreen></iframe>
-            </div>
-            <div class="disclosure"><strong>Ian Lights a Lighter</strong><span>AI concept trailer — pre-visualization</span></div>
-          </article>
-          <article class="video-shell">
-            <div class="video-frame">
-              <iframe src="https://drive.google.com/file/d/1pTwfOnYOD8jw9juKM-Lj-GX9R0HKrHY5/preview" title="Bridge Evacuation" allow="autoplay; fullscreen" allowfullscreen></iframe>
-            </div>
-            <div class="disclosure"><strong>Bridge Evacuation</strong><span>AI concept trailer — pre-visualization</span></div>
-          </article>
-          <article class="video-shell">
-            <div class="video-frame">
-              <iframe src="https://drive.google.com/file/d/12CnM2A9Y4calybzgmmUzVET6g91HP3Ob/preview" title="Night Zero: Alki Strand" allow="autoplay; fullscreen" allowfullscreen></iframe>
-            </div>
-            <div class="disclosure"><strong>Night Zero: Alki Strand</strong><span>AI concept trailer — pre-visualization</span></div>
-          </article>
-          <article class="video-shell">
-            <div class="video-frame">
-              <iframe src="https://drive.google.com/file/d/1lARiWcbt00l5Q7LRtpzP1lYoK5LHHR4B/preview" title="Ferry Dock at Night" allow="autoplay; fullscreen" allowfullscreen></iframe>
-            </div>
-            <div class="disclosure"><strong>Ferry Dock at Night</strong><span>AI concept trailer — pre-visualization</span></div>
-          </article>
-          <article class="video-shell">
-            <div class="video-frame">
-              <iframe src="https://drive.google.com/file/d/1ISdVAXZhhlKhwTRvdIseoMiuc5rNF0-7/preview" title="Ian Crawls Out of the Water" allow="autoplay; fullscreen" allowfullscreen></iframe>
-            </div>
-            <div class="disclosure"><strong>Ian Crawls Out of the Water</strong><span>AI concept trailer — pre-visualization</span></div>
-          </article>
-          <article class="video-shell">
-            <div class="video-frame">
-              <iframe src="https://drive.google.com/file/d/1Ky1M0Npec2S5u7EYR6_2b4xJoEhxEKu4/preview" title="Rooftop Run: Alki Waterfront (Take 1)" allow="autoplay; fullscreen" allowfullscreen></iframe>
-            </div>
-            <div class="disclosure"><strong>Rooftop Run: Alki Waterfront (Take 1)</strong><span>AI concept trailer — pre-visualization</span></div>
-          </article>
-          <article class="video-shell">
-            <div class="video-frame">
-              <iframe src="https://drive.google.com/file/d/12lGDwzDZcUcwj523kfvUCLJqXablOOyr/preview" title="Rooftop Run: Alki Waterfront (Take 2)" allow="autoplay; fullscreen" allowfullscreen></iframe>
-            </div>
-            <div class="disclosure"><strong>Rooftop Run: Alki Waterfront (Take 2)</strong><span>AI concept trailer — pre-visualization</span></div>
-          </article>
-          <article class="video-shell">
-            <div class="video-frame">
-              <iframe src="https://drive.google.com/file/d/10VGZdVdpYP4weCWNcbGmaHo1WMU1SXcV/preview" title="Rooftop Run: Alki Waterfront (Take 3)" allow="autoplay; fullscreen" allowfullscreen></iframe>
-            </div>
-            <div class="disclosure"><strong>Rooftop Run: Alki Waterfront (Take 3)</strong><span>AI concept trailer — pre-visualization</span></div>
-          </article>
-          <article class="video-shell vertical-video">
-            <div class="video-frame">
-              <iframe src="https://drive.google.com/file/d/1Tc7d0SRUG0PWwDEZUGN5szcOqe_lpIQJ/preview" title="Lincoln Park — Level Concept" allow="autoplay; fullscreen" allowfullscreen></iframe>
-            </div>
-            <div class="disclosure"><strong>Lincoln Park — Level Concept</strong><span>AI concept trailer — pre-visualization</span></div>
-          </article>
-          <article class="video-shell">
-            <div class="video-frame">
-              <iframe src="https://drive.google.com/file/d/17e90pArpbLeiIGK2yHJds9rvkAiI9uOX/preview" title="SOLACE Cinematic Trailer — The Light Stays On" allow="autoplay; fullscreen" allowfullscreen></iframe>
-            </div>
-            <div class="disclosure"><strong>SOLACE Cinematic Trailer — The Light Stays On</strong><span>AI concept trailer — pre-visualization</span></div>
-          </article>
-          <article class="video-shell">
-            <div class="video-frame">
-              <iframe src="https://drive.google.com/file/d/1M_9Z_7tQCmQnmt2E8Ui6P-x1uBQGV0CZ/preview" title="Ian — Water Escape Concept" allow="autoplay; fullscreen" allowfullscreen></iframe>
-            </div>
-            <div class="disclosure"><strong>Ian — Water Escape Concept</strong><span>AI concept trailer — pre-visualization</span></div>
-          </article>
-          <article class="video-shell">
-            <div class="video-frame">
-              <iframe src="https://drive.google.com/file/d/16fE7Gt8m-vmbIFTGfXYq0m_aaykih8c6/preview" title="Alley Fight Concept" allow="autoplay; fullscreen" allowfullscreen></iframe>
-            </div>
-            <div class="disclosure"><strong>Alley Fight Concept</strong><span>AI concept trailer — pre-visualization</span></div>
-          </article>
-        </div>
-      </div>
-    </section>
+    
 
     <section>
       <div class="wrap story-grid">
         <div class="story-copy">
-          <span class="section-no">02 / Story</span>
+          <span class="section-no">01 / Story</span>
           <h2>No road out.<br>Only a signal.</h2>
           <p>West Seattle is sealed after the bridge is destroyed and the peninsula is quarantined.</p>
           <p>Ian, a former cartel hitman, fights district by district across a ruined city to reach Missy, the woman he loves. Getting to her is only the beginning. To call for help — and find a way out — they must reach the Westlight broadcast tower.</p>
@@ -421,7 +307,7 @@
     <section class="features">
       <div class="wrap">
         <div class="section-head">
-          <span class="section-no">03 / Highlights</span>
+          <span class="section-no">02 / Highlights</span>
           <h2>Survival shaped by where you go next.</h2>
         </div>
         <div class="feature-grid">
@@ -438,7 +324,7 @@
     <section>
       <div class="wrap districts-layout">
         <div class="districts-intro">
-          <span class="section-no">04 / The city</span>
+          <span class="section-no">03 / The city</span>
           <h2>Nine districts.<br>One way out.</h2>
           <p class="lead">A handcrafted path across West Seattle, where progression opens through story choices rather than a fixed route.</p>
         </div>
@@ -460,7 +346,7 @@
       <div class="prototype-grid">
         <div class="prototype-image" role="img" aria-label="Concept visualization of rooftop movement in rain"></div>
         <div class="prototype-copy">
-          <span class="section-no">05 / Play</span>
+          <span class="section-no">04 / Play</span>
           <h2>Enter the graybox.</h2>
           <p>Explore the current browser-based prototype and experience the campaign structure, district progression, combat loop, and traversal foundation.</p>
           <p class="small">Web prototype / graybox preview — not the final game.</p>
@@ -472,7 +358,7 @@
     <section class="novels" id="graphic-novels">
       <div class="wrap">
         <div class="section-head">
-          <span class="section-no">06 / Graphic novels</span>
+          <span class="section-no">05 / Graphic novels</span>
           <h2>The whole story.<br>Drawn in the rain.</h2>
         </div>
         <p class="lead">The full SOLACE storyline as a graphic novel series — the same canon as the game: the desert, Night Zero, nine districts, the reunion at High Point, the bridge, and the Turned Path. Free to read, right here.</p>
@@ -539,13 +425,14 @@
     <section class="build" id="latest-build">
       <div class="wrap">
         <div class="section-head">
-          <span class="section-no">07 / Latest build</span>
+          <span class="section-no">06 / Latest build</span>
           <h2>The build is real.</h2>
         </div>
         <div class="build-grid">
           <div>
             <p>On October 13, 2026, SOLACE compiled and packaged for Windows (Win64) on the studio's cloud build machine — a complete Westlight.exe package, built start to finish from the project source.</p>
             <p>Version 2 of the project — the full game with a second storyline module integrated — is built and now in compile testing.</p>
+            <p>The game as designed spans nine West Seattle districts and 109 missions — 90 district missions, plus the prologue, character, and mentor missions — with 4 optional Apex night hunts beyond the count, and a named cast of 15+ characters, each with a full storyline. Estimated playtime is about 40 hours for the main story and about 50 hours for everything (estimate).</p>
             <p>SOLACE is in development and not yet released. PC distribution is being set up through the SOLACE Launcher — when the build opens to players, it will arrive there first.</p>
             <p class="small">Coming via the SOLACE Launcher — PC. No download yet: we would rather hand you a game that runs than a date that slips.</p>
           </div>
@@ -553,6 +440,10 @@
             <li><b>Oct 13, 2026</b><span>Win64 package compiled and packaged — Westlight.exe</span></li>
             <li><b>Version 2</b><span>Full project + second storyline module — in compile testing</span></li>
             <li><b>SOLACE Launcher</b><span>PC distribution in setup (Xsolla)</span></li>
+            <li><b>109 missions</b><span>90 district + prologue, character and mentor — plus 4 optional Apex hunts</span></li>
+            <li><b>9 districts</b><span>One connected West Seattle, unlocked by your choices</span></li>
+            <li><b>15+ characters</b><span>Named cast, each with a full storyline</span></li>
+            <li><b>~40 hours</b><span>Estimated main story — ~50 hours for everything (ESTIMATE)</span></li>
             <li><b>In development</b><span>Not yet released</span></li>
           </ul>
         </div>
@@ -562,7 +453,7 @@
     <section class="contact">
       <div class="wrap contact-grid">
         <div>
-          <span class="section-no">08 / Partners</span>
+          <span class="section-no">07 / Partners</span>
           <h2>Help bring West Seattle to life.</h2>
           <p>SOLACE is in active development at Chaotic Designs, led by solo developer Ian Bronson. Investors and publishing partners can review the pitch deck or start a conversation directly.</p>
         </div>
